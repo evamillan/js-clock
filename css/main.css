@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3a1c71), color-stop(#d76d77), to(#ffaf7b));
+  background: linear-gradient(to bottom, #3a1c71, #d76d77, #ffaf7b); }
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; }
+
+.js-clock {
+  color: white;
+  font-size: 158px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700; }
+
+/*# sourceMappingURL=main.css.map */
