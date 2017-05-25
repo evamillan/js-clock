@@ -20,8 +20,12 @@ body {
 
 .js-clock {
   color: white;
-  font-size: 158px;
+  font-size: 58px;
   font-family: 'Inconsolata', monospace;
   font-weight: 700; }
+
+@media (min-width: 700px) {
+  .js-clock {
+    font-size: 158px; } }
 
 /*# sourceMappingURL=main.css.map */
