@@ -2,9 +2,9 @@ var refresher = window.setInterval(currentTime, 1000);
 
 function currentTime() {
   var time = new Date();
-  hours = time.getHours();
-  minutes = time.getMinutes();
-  seconds = time.getSeconds();
+  var hours = time.getHours();
+  var minutes = time.getMinutes();
+  var seconds = time.getSeconds();
   if (hours < 10) {
     hours = "0" + hours;
   }
